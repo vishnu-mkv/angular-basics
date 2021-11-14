@@ -1,0 +1,28 @@
+form {
+    margin-top: 8em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0.5em 0;
+    padding: 1px;
+}
+
+input {
+    max-width: 35%;
+}
+
+button, input {
+    background: none;
+    padding: 0.2em 0.6em;
+    border-radius: 0.2em;
+    border: 1px solid black;
+}
+
+h2, button {
+    margin: 1.5em 0;
+}
+
+
